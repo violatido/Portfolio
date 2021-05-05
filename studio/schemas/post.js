@@ -1,3 +1,6 @@
+// this builds the page on sanity studio that let's you create individual blog posts
+
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   name: 'post',
   title: 'Post',
