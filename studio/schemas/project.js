@@ -1,6 +1,5 @@
 // this builds the page on sanity studio that let's you create the content
 
-// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   name: "project",
   title: "Project",
@@ -11,14 +10,14 @@ export default {
       name: "title",
       type: "string",
     },
-    {
-      name: "date",
-      type: "datetime",
-    },
-    {
-      name: "description",
-      type: "text"
-    },
+    // {
+    //   name: "date",
+    //   type: "datetime",
+    // },
+    // {
+    //   name: "description",
+    //   type: "text"
+    // },
     {
       name: "projectType",
       title: "Project type",
@@ -41,11 +40,11 @@ export default {
       of: [
         {
           type: "string"
-        }
+        },
       ],
       options: {
         layout: "tags"
-      }
-    }
-  ]
-}
+      },
+    },
+  ],
+};
