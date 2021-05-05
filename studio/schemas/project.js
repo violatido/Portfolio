@@ -16,10 +16,6 @@ export default {
       type: "datetime",
     },
     {
-      name: "place",
-      type: "string"
-    },
-    {
       name: "description",
       type: "text"
     },
